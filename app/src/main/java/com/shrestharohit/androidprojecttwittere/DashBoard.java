@@ -2,23 +2,27 @@ package com.shrestharohit.androidprojecttwittere;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
+import android.view.View;
+
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
-import com.shresthagaurav.androidprojecttwitter.api.ApiClass;
-import com.shresthagaurav.androidprojecttwitter.model.UserInfo;
+import com.shrestharohit.androidprojecttwittere.api.ApiClass;
+import com.shrestharohit.androidprojecttwittere.model.UserInfo;
+
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import android.view.Menu;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.InputStream;
 import java.net.URL;

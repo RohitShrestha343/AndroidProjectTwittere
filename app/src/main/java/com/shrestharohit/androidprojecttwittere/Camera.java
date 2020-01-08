@@ -1,5 +1,9 @@
 package com.shrestharohit.androidprojecttwittere;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.loader.content.CursorLoader;
+
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
@@ -11,15 +15,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.loader.content.CursorLoader;
-
-import com.shresthagaurav.androidprojecttwitter.api.ApiClass;
-import com.shresthagaurav.androidprojecttwitter.model.ImageModel;
-import com.shresthagaurav.androidprojecttwitter.model.SignUpResponse;
-import com.shresthagaurav.androidprojecttwitter.model.User;
-import com.shresthagaurav.androidprojecttwitter.strictMode.StrictModeClass;
+import com.shrestharohit.androidprojecttwittere.api.ApiClass;
+import com.shrestharohit.androidprojecttwittere.model.ImageModel;
+import com.shrestharohit.androidprojecttwittere.model.SignUpResponse;
+import com.shrestharohit.androidprojecttwittere.model.User;
+import com.shrestharohit.androidprojecttwittere.strictMode.StrictModeClass;
 
 import java.io.File;
 import java.io.IOException;

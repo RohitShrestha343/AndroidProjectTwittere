@@ -13,9 +13,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.shresthagaurav.androidprojecttwitter.api.LoginBLL;
-import com.shresthagaurav.androidprojecttwitter.model.User;
-import com.shresthagaurav.androidprojecttwitter.strictMode.StrictModeClass;
+import com.shrestharohit.androidprojecttwittere.api.LoginBLL;
+import com.shrestharohit.androidprojecttwittere.model.User;
+import com.shrestharohit.androidprojecttwittere.strictMode.StrictModeClass;
 
 public class Login_activity extends AppCompatActivity {
     EditText et_email, et_password;
@@ -63,6 +63,7 @@ public class Login_activity extends AppCompatActivity {
                     if (!TextUtils.isEmpty( et_password.getText().toString() )) {
                         User u = new User( et_email.getText().toString(),
                                 et_password.getText().toString() );
+                        Toast.makeText(Login_activity.this, ""+et_email.getText().toString()+et_password.getText().toString(), Toast.LENGTH_SHORT).show();
 login( u );
                     } else {
                         et_password.setError( "empty" );

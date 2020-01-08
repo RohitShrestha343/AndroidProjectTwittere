@@ -1,18 +1,20 @@
 package com.shrestharohit.androidprojecttwittere.api;
 
 
-import com.shresthagaurav.androidprojecttwitter.model.Check;
-import com.shresthagaurav.androidprojecttwitter.model.ImageModel;
-import com.shresthagaurav.androidprojecttwitter.model.SignUpResponse;
-import com.shresthagaurav.androidprojecttwitter.model.TweetM;
-import com.shresthagaurav.androidprojecttwitter.model.User;
-import com.shresthagaurav.androidprojecttwitter.model.UserInfo;
+import com.shrestharohit.androidprojecttwittere.model.Check;
+import com.shrestharohit.androidprojecttwittere.model.ImageModel;
+import com.shrestharohit.androidprojecttwittere.model.SignUpResponse;
+import com.shrestharohit.androidprojecttwittere.model.TweetM;
+import com.shrestharohit.androidprojecttwittere.model.User;
+import com.shrestharohit.androidprojecttwittere.model.UserInfo;
+
 
 import java.util.List;
 
 import okhttp3.MultipartBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
+
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.Header;

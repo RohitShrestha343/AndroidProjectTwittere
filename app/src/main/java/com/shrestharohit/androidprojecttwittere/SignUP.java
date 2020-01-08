@@ -1,5 +1,7 @@
 package com.shrestharohit.androidprojecttwittere;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -14,11 +16,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.shresthagaurav.androidprojecttwitter.api.ApiClass;
-import com.shresthagaurav.androidprojecttwitter.model.Check;
-import com.shresthagaurav.androidprojecttwitter.model.User;
+import com.shrestharohit.androidprojecttwittere.api.ApiClass;
+import com.shrestharohit.androidprojecttwittere.model.Check;
+import com.shrestharohit.androidprojecttwittere.model.User;
 
 import retrofit2.Call;
 import retrofit2.Callback;

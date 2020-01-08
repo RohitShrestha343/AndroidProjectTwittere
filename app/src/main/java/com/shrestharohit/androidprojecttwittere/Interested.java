@@ -1,17 +1,17 @@
 package com.shrestharohit.androidprojecttwittere;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.shresthagaurav.androidprojecttwitter.adapter.InterestsAdapter;
-import com.shresthagaurav.androidprojecttwitter.model.DataSet;
+import com.shrestharohit.androidprojecttwittere.adapter.InterestsAdapter;
+import com.shrestharohit.androidprojecttwittere.model.DataSet;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.shrestharohit.androidprojecttwittere.api;
 
 
-import com.shresthagaurav.androidprojecttwitter.model.SignUpResponse;
+import com.shrestharohit.androidprojecttwittere.model.SignUpResponse;
 
 import java.io.IOException;
 

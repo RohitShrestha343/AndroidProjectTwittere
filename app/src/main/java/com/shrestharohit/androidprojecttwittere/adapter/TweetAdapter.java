@@ -11,9 +11,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.shresthagaurav.androidprojecttwitter.R;
-import com.shresthagaurav.androidprojecttwitter.model.TweetM;
-import com.shresthagaurav.androidprojecttwitter.strictMode.StrictModeClass;
+import com.shrestharohit.androidprojecttwittere.R;
+import com.shrestharohit.androidprojecttwittere.model.TweetM;
+import com.shrestharohit.androidprojecttwittere.strictMode.StrictModeClass;
+
 
 import java.io.InputStream;
 import java.net.URL;
@@ -32,21 +33,28 @@ public class TweetAdapter  extends RecyclerView.Adapter<TweetAdapter.TweetList> 
 
     @NonNull
     @Override
-    public TweetAdapter.TweetList onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public TweetList onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from( parent.getContext() ).inflate( R.layout.homel_rv, parent, false );
-        return new TweetAdapter.TweetList( view );
+        return new TweetList( view );
 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull TweetAdapter.TweetList holder, int position) {
+    public void onBindViewHolder(@NonNull TweetList holder, int position) {
         TweetM tm = dataSetList.get( position );
         holder.txt_head.setText( tm.getHeadingtext() );
         holder.txt_body.setText( tm.getMessagetext() );
         StrictModeClass.StrictMode();
-        String imgPath = imagePath +  tm.getImage();
+        String imgPath = imagePath +  tm.getUserimage();
         try {
             URL url = new URL(imgPath);
+            holder.p_img.setImageBitmap( BitmapFactory.decodeStream((InputStream) url.getContent()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        String imgPath2 = imagePath +  tm.getMessageimage();
+        try {
+            URL url = new URL(imgPath2);
             holder.m_img.setImageBitmap( BitmapFactory.decodeStream((InputStream) url.getContent()));
         } catch (Exception e) {
             e.printStackTrace();

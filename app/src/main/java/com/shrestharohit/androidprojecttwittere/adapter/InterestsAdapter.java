@@ -9,9 +9,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.shresthagaurav.androidprojecttwitter.R;
-import com.shresthagaurav.androidprojecttwitter.model.DataSet;
+import com.shrestharohit.androidprojecttwittere.R;
+import com.shrestharohit.androidprojecttwittere.model.DataSet;
 
 import java.util.List;
 

@@ -11,12 +11,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.shresthagaurav.androidprojecttwitter.Camera;
-import com.shresthagaurav.androidprojecttwitter.Login_activity;
-import com.shresthagaurav.androidprojecttwitter.R;
-import com.shresthagaurav.androidprojecttwitter.adapter.TweetAdapter;
-import com.shresthagaurav.androidprojecttwitter.api.ApiClass;
-import com.shresthagaurav.androidprojecttwitter.model.TweetM;
+import com.shrestharohit.androidprojecttwittere.Camera;
+import com.shrestharohit.androidprojecttwittere.Login_activity;
+import com.shrestharohit.androidprojecttwittere.adapter.TweetAdapter;
+import com.shrestharohit.androidprojecttwittere.api.ApiClass;
+import com.shrestharohit.androidprojecttwittere.model.TweetM;
+import com.shrestharohit.androidprojecttwittere.R;
 
 import java.util.List;
 
