@@ -20,8 +20,6 @@
         android:id="@+id/P_img"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="8dp"
-        android:background="@drawable/circular_shape"
         android:padding="7dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -57,7 +55,6 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/but_shape"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,15 +73,15 @@
         app:layout_constraintTop_toBottomOf="@+id/M_img">
 
         <ImageView
-            android:layout_width="25dp"
+            android:layout_width="20sp"
             android:layout_height="25dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_chat" />
+            android:src="@drawable/chat_img" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="88"
+            android:text="2000"
             />
 
         <ImageView
@@ -92,24 +89,24 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_update_arrows" />
+            android:src="@drawable/round" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="88" />
+            android:text="10" />
 
         <ImageView
             android:layout_marginLeft="20dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_heart" />
+            android:src="@drawable/love" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="88" />
+            android:text="25" />
 
         <ImageView
             android:layout_marginRight="10dp"
